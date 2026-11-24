@@ -1,0 +1,10 @@
+name: Bug report
+description: Something is not working
+body:
+  - type: textarea
+    id: what
+    attributes: {label: What happened?}
+    validations: {required: true}
+  - type: input
+    id: device
+    attributes: {label: Apple TV model and tvOS version}
